@@ -1,0 +1,403 @@
+/*For inheritence*/
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+.aa {
+  text-decoration: none;
+  margin-right: 1.8rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+
+  padding-top: 3rem;
+}
+
+.headft {
+  height: 100%;
+  /* height: 100vh; */
+  position: absolute;
+  bottom: 0;
+  left: -8rem;
+
+  /* top: 0;
+  left: -8rem; */
+}
+
+.landct {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h4 {
+  margin-left: 3rem;
+  font-size: clamp(3rem, 2vw, 4rem);
+
+  font-family: "Gruppo", cursive;
+  color: #ffffff;
+  letter-spacing: 8px;
+}
+
+.menu {
+  margin-right: 2rem;
+  font-size: clamp(2.2rem, 2.2vw, 3.5rem);
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 100;
+  font-family: "Italiana", serif;
+}
+
+/*MOBILE HEADER*/
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  cursor: pointer;
+  margin: 0;
+  display: none;
+  color: rgb(255, 255, 255);
+}
+
+.close {
+  height: 3rem;
+  width: 3rem;
+  color: rgb(255, 255, 255);
+}
+
+.open {
+  height: 3rem;
+  width: 3rem;
+  color: rgb(255, 255, 255);
+}
+
+/*LANDING PAGE*/
+
+.landing {
+  /* background: radial-gradient(
+    circle at -4% -12.9%,
+    rgb(74, 98, 110) 0.3%,
+    rgb(30, 33, 48) 90.2%
+  ); */
+
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  height: 100vh;
+  position: relative;
+  /* margin-bottom: 10rem; */
+}
+
+.landtxt {
+  font-size: clamp(1.5rem, 4.5vw, 12rem);
+  line-height: 1.2;
+  padding-bottom: 5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  max-width: 90rem;
+  margin-top: clamp(7rem, 10vw, 18rem);
+  /* margin-right: 3rem;
+  margin-left: 3rem; */
+  font-family: "Italiana", serif;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.portfoliotxt {
+  padding-top: 5rem;
+}
+
+.imgss {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.imggalleryall {
+  width: 100%;
+  max-height: 100%;
+  transition: transform 0.5s;
+}
+
+.imggalleryall:hover {
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.portimgline {
+  grid-column: 1/3;
+}
+
+.workgrid {
+  margin: 3rem;
+}
+
+.flexinu {
+  display: flex;
+  justify-content: center;
+}
+
+.flexinu h3 {
+  width: 80%;
+  text-align: left;
+  border-bottom: 2px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.h3 span {
+  /* background: rgba(255, 255, 255, 0); */
+  /* background: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+  background-color: #ffffff;
+  padding: 0 1rem;
+  font-weight: 500;
+}
+
+.h3 {
+  text-transform: uppercase;
+  font-family: "Italiana", serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 2vw, 8rem);
+  padding-top: clamp(2rem, 8vw, 18rem);
+}
+
+.myworks {
+  text-transform: uppercase;
+  font-size: clamp(1rem, 2.5vw, 8rem);
+  display: inline;
+  background-color: #ffffff;
+  margin: 0 2rem;
+  padding: 0 1rem;
+}
+
+.buba {
+  margin-top: clamp(1rem, 2vw, 5rem);
+  display: flex;
+  justify-content: center;
+}
+
+.portx {
+  grid-column: 1/3;
+  /* padding-left: 8rem; */
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.morebtn {
+  background-color: rgb(233, 233, 229);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: clamp(0.8rem, 2vw, 3rem);
+  font-weight: 700;
+}
+
+.abme3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin: 0.5rem;
+  align-items: end;
+  justify-items: center;
+  margin-top: 0;
+  margin-bottom: 7rem;
+}
+
+.anim:hover {
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.anim {
+  transition: transform 0.5s;
+}
+
+.expftt {
+  margin-bottom: clamp(2rem, 3vw, 8rem);
+}
+
+.prt {
+  text-align: center;
+  align-self: start;
+}
+.stastext {
+  margin-top: 2rem;
+  font-size: clamp(1rem, 1.7vw, 8rem);
+  line-height: 1.3;
+  text-align: left;
+}
+
+.exptxt {
+  width: 80%;
+  font-size: clamp(1rem, 2vw, 8rem);
+  line-height: 1.5;
+}
+.abmodeltxt {
+  width: 80%;
+  font-size: clamp(1rem, 2vw, 8rem);
+  line-height: 1.3;
+  margin-top: 2rem;
+}
+
+.flz {
+  width: 60%;
+}
+
+.expftt {
+  width: 90%;
+}
+
+.abmetxt {
+  font-size: clamp(3rem, 5vw, 14rem);
+  margin-top: 8.5rem;
+  margin-bottom: 0;
+  padding-top: 7rem;
+}
+
+.bbk {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: clamp(3rem, 5vw, 7rem);
+}
+
+.contactme {
+  display: flex;
+
+  justify-items: center;
+  margin-bottom: 9rem;
+}
+
+.ctmefoto {
+  width: 100%;
+  border-radius: 1rem;
+  transition: transform 0.5s;
+}
+
+.ctmefoto:hover {
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.ctmetext {
+  align-self: start;
+  font-size: clamp(1rem, 2vw, 4rem);
+  line-height: 1.3;
+  width: 50%;
+  margin: 3rem;
+  margin-top: 3.2rem;
+}
+.ctmeimgdiv {
+  width: 50%;
+  margin: 3rem;
+}
+
+footer ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-decoration: none;
+  background-color: #000000de;
+  padding-bottom: 2rem;
+  justify-items: center;
+}
+
+.foteris {
+  margin: auto;
+  font-size: clamp(1rem, 1.2vw, 2rem);
+  margin-top: 1rem;
+  display: inline-block;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000000de;
+  z-index: 99999999;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  margin: 0;
+}
+
+.svgsocial {
+  width: clamp(3rem, 5vw, 30rem);
+  height: clamp(3rem, 5vw, 80rem);
+}
+
+button {
+  text-decoration: none;
+  border: none;
+  background: none;
+}
+
+.btn {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nsbtn {
+  text-decoration: none;
+}
+
+.privacy {
+  text-align: center;
+  font-size: 3rem;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 15rem;
+  height: 75vh;
+}
+
+.tos {
+  max-width: 80%;
+  margin: 10rem auto;
+  line-height: 2;
+}
+
+.tos2 {
+  max-width: 80%;
+  margin: 10rem auto;
+  line-height: 1.5;
+}
+
+.toss22 {
+  height: 75vh;
+}
+
+.gallerypage {
+  margin-top: 10rem;
+}
+
+.galleryheader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000000de;
+  z-index: 99999999;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  margin: 0;
+}
