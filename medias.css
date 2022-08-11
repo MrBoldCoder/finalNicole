@@ -120,7 +120,7 @@
     z-index: 8;
     flex-direction: column;
     align-items: center;
-    line-height: 2;
+    line-height: 2.4;
     top: -19rem;
 
     border-radius: 0.5rem;
@@ -134,7 +134,7 @@
   }
   
   .cc {
-   margin-top: 4rem;
+   margin-top: 6rem;
   }
   
   .ee {
@@ -278,7 +278,7 @@
   }
 
   .landing {
-    max-height: 700px;
+    max-height: 720px;
   }
 }
 
